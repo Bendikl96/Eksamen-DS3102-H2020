@@ -1,7 +1,10 @@
 html, body{
-    background-color: rgb(77, 77, 94);
+    background-image: linear-gradient(rgb(43, 41, 51), rgb(78, 58, 66));
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
+    height: 100%;
+    overflow: auto;
 }
 
 #main-page-container{
@@ -11,7 +14,6 @@ html, body{
      grid-row-gap: 10%;
      grid-column-gap: 0rem;
      grid-auto-rows: 150px;
-     background-image: linear-gradient(rgb(43, 41, 51), rgb(78, 58, 66));
      height: 100%;
      min-height: 100%;
      width: 100%;
@@ -29,6 +31,56 @@ html, body{
     display: none;
 }
 
+
+/* Navbar */
+
+#navbar{
+    position: relative;
+    width: 100%;
+    top: -62px;
+    grid-column: 1 / span 4;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#75355a;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    left: 30px;
+    margin-left: 30px;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
+  
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #75355a;
+    color: white;
+    text-align: center;
+  }
+
+
 /* Box og Tekst Css */
 
 #box{
@@ -38,7 +90,7 @@ html, body{
     background-color: gray;
     border: 1px solid black;
     left: 80px;
-    top: -10px;
+    top: -100px;
 }
 
 #text{
@@ -62,7 +114,7 @@ html, body{
     width: 150px;
     border: 1.2px solid black;
     left: 80px;
-    top: -10px;
+    top: -80px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -80,7 +132,7 @@ html, body{
     width: 150px;
     border: 1.2px solid black;
     left: 80px;
-    top: -10px;
+    top: -80px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -98,7 +150,7 @@ html, body{
     width: 150px;
     border: 1.2px solid black;
     left: 80px;
-    top: 50px;
+    top: -80px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -116,7 +168,7 @@ html, body{
     width: 150px;
     border: 1.2px solid black;
     left: 80px;
-    top: 50px;
+    top: -100px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -134,7 +186,7 @@ html, body{
     width: 150px;
     border: 1.2px solid black;
     left: 80px;
-    top: 50px;
+    top: -100px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -152,7 +204,7 @@ html, body{
     width: 150px;
     border: 1.2px solid black;
     left: 80px;
-    top: 50px;
+    top: -100px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -170,7 +222,7 @@ html, body{
     width: 150px;
     border: 1.2px solid black;
     left: 80px;
-    top: 20px;
+    top: -100px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -188,7 +240,7 @@ html, body{
     width: 150px;
     border: 1.2px solid black;
     left: 80px;
-    top: 20px;
+    top: -120px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -203,14 +255,7 @@ html, body{
 #spans{
         position: relative; 
         left:56px; 
-        bottom: 15px;
-        color: gold;
-    }
-
-#spans1{
-        position: relative; 
-        left:56px; 
-        bottom: -45px;
+        bottom: 85px;
         color: gold;
     }
 
