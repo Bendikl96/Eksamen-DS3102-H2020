@@ -1,0 +1,224 @@
+html, body{
+    background-color: rgb(77, 77, 94);
+    margin: 0px;
+    padding: 0px;
+}
+
+#main-page-container{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);     
+     grid-template-rows: 100px 50px 150px;
+     grid-row-gap: 10%;
+     grid-column-gap: 0rem;
+     grid-auto-rows: 150px;
+     background-image: linear-gradient(rgb(43, 41, 51), rgb(78, 58, 66));
+     height: 100%;
+     min-height: 100%;
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+     
+}
+
+.item1{
+    grid-column: 1 / span 4;
+}
+
+
+.item4{
+    display: none;
+}
+
+/* Box og Tekst Css */
+
+#box{
+    position: relative;
+    width: 230px;
+    height: 170px;
+    background-color: gray;
+    border: 1px solid black;
+    left: 80px;
+    top: -10px;
+}
+
+#text{
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+/*  Bilder  */
+
+#banner {
+    height: 110px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#Produktbilde1 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border: 1.2px solid black;
+    left: 80px;
+    top: -10px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#Produktbilde1:hover{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+}
+
+
+#Produktbilde2 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border: 1.2px solid black;
+    left: 80px;
+    top: -10px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#Produktbilde2:hover{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+}
+
+
+#Produktbilde3 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border: 1.2px solid black;
+    left: 80px;
+    top: 50px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#Produktbilde3:hover{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+}
+
+
+#Produktbilde4 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border: 1.2px solid black;
+    left: 80px;
+    top: 50px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#Produktbilde4:hover{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+}
+
+
+#Produktbilde5 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border: 1.2px solid black;
+    left: 80px;
+    top: 50px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#Produktbilde5:hover{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+}
+
+
+#Produktbilde6 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border: 1.2px solid black;
+    left: 80px;
+    top: 50px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#Produktbilde6:hover{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+}
+
+
+#Produktbilde7 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border: 1.2px solid black;
+    left: 80px;
+    top: 20px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#Produktbilde7:hover{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+}
+
+
+#Produktbilde8 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border: 1.2px solid black;
+    left: 80px;
+    top: 20px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#Produktbilde8:hover{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+}
+
+
+#spans{
+        position: relative; 
+        left:56px; 
+        bottom: 15px;
+        color: gold;
+    }
+
+#spans1{
+        position: relative; 
+        left:56px; 
+        bottom: -45px;
+        color: gold;
+    }
+
+/* Media queries */
+
+@media (max-width: 768px){
+ 
+}
+
+
+
