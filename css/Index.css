@@ -98,7 +98,7 @@ li a:hover {
     font-family: sans-serif;
 }
 
-/*  Bilder  */
+/*  Bilder + hover */
 
 #banner {
     height: 110px;
@@ -108,7 +108,7 @@ li a:hover {
     top: 0px;
 }
 
-
+/* Bilde 1 */
 #Produktbilde1 {
     position: relative;
     height: 150px;
@@ -142,7 +142,7 @@ li a:hover {
 
 
 
-
+/* Bilde 2 */
 #Produktbilde2 {
     position: relative;
     height: 150px;
@@ -176,7 +176,7 @@ li a:hover {
 
 
 
-
+/* Bilde 3 */
 #Produktbilde3 {
     position: relative;
     height: 150px;
@@ -210,8 +210,7 @@ li a:hover {
 
 
 
-
-
+/* Bilde 4 */
 #Produktbilde4 {
     position: relative;
     height: 150px;
@@ -244,7 +243,7 @@ li a:hover {
 }
 
 
-
+/* Bilde 5 */
 #Produktbilde5 {
     position: relative;
     height: 150px;
@@ -278,7 +277,7 @@ li a:hover {
 
 
 
-
+/* Bilde 6 */
 #Produktbilde6 {
     position: relative;
     height: 150px;
@@ -312,7 +311,7 @@ li a:hover {
 
 
 
-
+/* Bilde 7 */
 #Produktbilde7 {
     position: relative;
     height: 150px;
@@ -346,7 +345,7 @@ li a:hover {
 
 
 
-
+/* Bilde 8 */
 #Produktbilde8 {
     position: relative;
     height: 150px;
@@ -379,7 +378,7 @@ li a:hover {
 }
 
 
-
+/* Fontawsome ikoner  */
 #spans{
         position: relative; 
         left:56px; 
@@ -387,6 +386,8 @@ li a:hover {
         color: gold;
     }
 
+
+    
 /* Media queries */
 
 @media (max-width: 768px){
