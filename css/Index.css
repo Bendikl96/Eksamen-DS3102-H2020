@@ -108,6 +108,7 @@ li a:hover {
     top: 0px;
 }
 
+
 #Produktbilde1 {
     position: relative;
     height: 150px;
@@ -119,11 +120,27 @@ li a:hover {
     object-fit: cover;
 }
 
+#sushi1text{
+    position: absolute;
+    display: none;
+}
+
+.sushi1:hover #sushi1text{
+    display: block;
+    color: white;
+    top: 220px;
+    left: 420px;
+    opacity: 1;
+}
+
 #Produktbilde1:hover{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
-    box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 20px #000000;
+    opacity: 25%;
 }
+
+
 
 
 #Produktbilde2 {
@@ -137,11 +154,27 @@ li a:hover {
     object-fit: cover;
 }
 
+#sushi2text{
+    position: absolute;
+    display: none;
+}
+
+.sushi2:hover #sushi2text{
+    display: block;
+    color: white;
+    top: 220px;
+    left: 740px;
+    opacity: 1;
+}
+
 #Produktbilde2:hover{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 15px #000000;
+    opacity: 25%;
 }
+
+
 
 
 #Produktbilde3 {
@@ -155,11 +188,28 @@ li a:hover {
     object-fit: cover;
 }
 
+#sushi3text{
+    position: absolute;
+    display: none;
+}
+
+.sushi3:hover #sushi3text{
+    display: block;
+    color: white;
+    top: 220px;
+    left: 1055px;
+    opacity: 1;
+}
+
 #Produktbilde3:hover{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 15px #000000;
+    opacity: 25%;
 }
+
+
+
 
 
 #Produktbilde4 {
@@ -173,11 +223,26 @@ li a:hover {
     object-fit: cover;
 }
 
+#sushi4text{
+    position: absolute;
+    display: none;
+}
+
+.sushi4:hover #sushi4text{
+    display: block;
+    color: white;
+    top: 420px;
+    left: 85px;
+    opacity: 1;
+}
+
 #Produktbilde4:hover{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 15px #000000;
+    opacity: 25%;
 }
+
 
 
 #Produktbilde5 {
@@ -191,11 +256,27 @@ li a:hover {
     object-fit: cover;
 }
 
+#sushi5text{
+    position: absolute;
+    display: none;
+}
+
+.sushi5:hover #sushi5text{
+    display: block;
+    color: white;
+    top: 420px;
+    left: 403px;
+    opacity: 1;
+}
+
 #Produktbilde5:hover{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 15px #000000;
+    opacity: 25%;
 }
+
+
 
 
 #Produktbilde6 {
@@ -209,11 +290,27 @@ li a:hover {
     object-fit: cover;
 }
 
+#sushi6text{
+    position: absolute;
+    display: none;
+}
+
+.sushi6:hover #sushi6text{
+    display: block;
+    color: white;
+    top: 420px;
+    left: 730px;
+    opacity: 1;
+}
+
 #Produktbilde6:hover{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 15px #000000;
+    opacity: 25%;
 }
+
+
 
 
 #Produktbilde7 {
@@ -227,11 +324,27 @@ li a:hover {
     object-fit: cover;
 }
 
+#sushi7text{
+    position: absolute;
+    display: none;
+}
+
+.sushi7:hover #sushi7text{
+    display: block;
+    color: white;
+    top: 420px;
+    left: 1050px;
+    opacity: 1;
+}
+
 #Produktbilde7:hover{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 15px #000000;
+    opacity: 25%;
 }
+
+
 
 
 #Produktbilde8 {
@@ -245,11 +358,26 @@ li a:hover {
     object-fit: cover;
 }
 
+#sushi8text{
+    position: absolute;
+    display: none;
+}
+
+.sushi8:hover #sushi8text{
+    display: block;
+    color: white;
+    top: 460px;
+    left: 100px;
+    opacity: 1;
+}
+
 #Produktbilde8:hover{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 15px #000000;
+    opacity: 25%;
 }
+
 
 
 #spans{
