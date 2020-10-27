@@ -108,6 +108,14 @@ li a:hover {
     top: 0px;
 }
 
+#maki{
+    position: relative;
+    top: -733px;
+    width: 100px;
+    height: 100px;
+    left: -350px;
+}
+
 #logo{
     height: 130px;
     width: 150px;
