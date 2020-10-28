@@ -138,16 +138,16 @@ li a:hover {
 }
 
 #sushi1text{
-    position: absolute;
     display: none;
 }
 
 .sushi1:hover #sushi1text{
     display: block;
     color: white;
-    top: 220px;
-    left: 420px;
+    top: -240px;
+    left: 100px;
     opacity: 1;
+    position: relative;
 }
 
 #Produktbilde1:hover{
@@ -179,9 +179,10 @@ li a:hover {
 .sushi2:hover #sushi2text{
     display: block;
     color: white;
-    top: 220px;
-    left: 740px;
+    top: -240px;
+    left: 100px;
     opacity: 1;
+    position: relative;
 }
 
 #Produktbilde2:hover{
@@ -213,9 +214,10 @@ li a:hover {
 .sushi3:hover #sushi3text{
     display: block;
     color: white;
-    top: 220px;
-    left: 1055px;
+    top: -240px;
+    left: 100px;
     opacity: 1;
+    position: relative;
 }
 
 #Produktbilde3:hover{
@@ -247,9 +249,10 @@ li a:hover {
 .sushi4:hover #sushi4text{
     display: block;
     color: white;
-    top: 420px;
+    top: -250px;
     left: 85px;
     opacity: 1;
+    position: relative;
 }
 
 #Produktbilde4:hover{
@@ -280,9 +283,10 @@ li a:hover {
 .sushi5:hover #sushi5text{
     display: block;
     color: white;
-    top: 420px;
-    left: 403px;
+    top: -250px;
+    left: 85px;
     opacity: 1;
+    position: relative;
 }
 
 #Produktbilde5:hover{
@@ -314,9 +318,10 @@ li a:hover {
 .sushi6:hover #sushi6text{
     display: block;
     color: white;
-    top: 420px;
-    left: 730px;
+    top: -250px;
+    left: 85px;
     opacity: 1;
+    position: relative;
 }
 
 #Produktbilde6:hover{
@@ -348,9 +353,10 @@ li a:hover {
 .sushi7:hover #sushi7text{
     display: block;
     color: white;
-    top: 420px;
-    left: 1050px;
+    top: -250px;
+    left: 85px;
     opacity: 1;
+    position: relative;
 }
 
 #Produktbilde7:hover{
@@ -382,9 +388,10 @@ li a:hover {
 .sushi8:hover #sushi8text{
     display: block;
     color: white;
-    top: 460px;
-    left: 100px;
+    top: -270px;
+    left: 95px;
     opacity: 1;
+    position: relative;
 }
 
 #Produktbilde8:hover{
