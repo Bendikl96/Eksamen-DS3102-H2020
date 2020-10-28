@@ -121,12 +121,14 @@ li a:hover {
     top: -130px;
 }
 
+/* Form boks */
+
 .container{
     position: absolute;
     height: 25pc;
     width: 20pc;
     margin: 50px;
-    top: 150px;
+    top: 175px;
     right: 0;
     left: 0;
     bottom: 0;
@@ -141,9 +143,43 @@ li a:hover {
     margin: 10px;
 }
 
+.rating{
+    margin: 10px;
+    direction: rtl;
+}
+
+.rating a{
+    font-size: 20px;
+    transition: 0.5s all;
+}
+
+.rating a:hover{
+    color: gold;
+}
+
+.b1:hover ~ a{
+    color: gold;
+}
+
+.b2:hover ~ a{
+    color: gold;
+}
+
+.b3:hover ~ a{
+    color: gold;
+}
+
+.b4:hover ~ a{
+    color: gold;
+}
+
+.b5:hover ~ a{
+    color: gold;
+}
+
 .review-field{
     border-radius: 7px;
-    margin: 15px;
+    margin: 10px;
     padding: 50px;
 }
 
