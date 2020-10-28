@@ -132,41 +132,52 @@ li a:hover {
     bottom: 0;
     backdrop-filter: blur(5px);
     box-shadow: 0 0 25px black;
+    text-align: center;
 }
 
-.addTxt{
-    position: absolute;
-    height: 25px;
-    width: 60%;
-    margin: 10px;
-    top: 15px;
-    right: 0;
-    left: 25px;
-    outline: none;
-    border: none;
-    padding: 20px;
-    padding-right: 50px;
+.regform{
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+}
+
+.review-field{
+    border-radius: 7px;
+    margin: 15px;
+    padding: 50px;
+}
+
+#name{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+}
+
+.name{
+    color: white;
+}
+
+.fullname{
+    border-radius: 7px;
+}
+
+.lastname{
+    border-radius: 7px;
 }
 
 .addBtn{
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    margin: auto;
-    top: 25px;
-    right: 35px;
+    border-radius: 7px;
+    top: 10px;
+    bottom: 0px;
+    background-color: white;
     cursor: pointer;
-    background: transparent;
     outline: none;
-    border: 0;
+    transition: 0.25px;
 }
 
-.fa-plus{
-    color: white;
-    font-size: 20px;
+.addBtn:hover{
+    background-color:gray;
 }
-
 
 /* Fontawsome ikoner  */
 #spans{
