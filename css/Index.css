@@ -129,11 +129,11 @@ li a:hover {
 /* Bilde 1 */
 #Produktbilde1 {
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: 1.2px solid black;
     left: 80px;
-    top: -80px;
+    top: -99px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -145,8 +145,8 @@ li a:hover {
 .sushi1:hover #sushi1text{
     display: block;
     color: white;
-    top: -240px;
-    left: 100px;
+    top: -290px;
+    left: 110px;
     opacity: 1;
     position: relative;
 }
@@ -163,11 +163,11 @@ li a:hover {
 /* Bilde 2 */
 #Produktbilde2 {
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: 1.2px solid black;
     left: 80px;
-    top: -80px;
+    top: -99px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -180,8 +180,8 @@ li a:hover {
 .sushi2:hover #sushi2text{
     display: block;
     color: white;
-    top: -240px;
-    left: 100px;
+    top: -290px;
+    left: 110px;
     opacity: 1;
     position: relative;
 }
@@ -198,11 +198,11 @@ li a:hover {
 /* Bilde 3 */
 #Produktbilde3 {
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: 1.2px solid black;
     left: 80px;
-    top: -80px;
+    top: -99px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -215,8 +215,8 @@ li a:hover {
 .sushi3:hover #sushi3text{
     display: block;
     color: white;
-    top: -240px;
-    left: 100px;
+    top: -290px;
+    left: 110px;
     opacity: 1;
     position: relative;
 }
@@ -233,11 +233,11 @@ li a:hover {
 /* Bilde 4 */
 #Produktbilde4 {
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: 1.2px solid black;
     left: 80px;
-    top: -100px;
+    top: -90px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -250,8 +250,8 @@ li a:hover {
 .sushi4:hover #sushi4text{
     display: block;
     color: white;
-    top: -250px;
-    left: 85px;
+    top: -280px;
+    left: 110px;
     opacity: 1;
     position: relative;
 }
@@ -266,11 +266,11 @@ li a:hover {
 /* Bilde 5 */
 #Produktbilde5 {
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: 1.2px solid black;
     left: 80px;
-    top: -100px;
+    top: -90px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -283,8 +283,8 @@ li a:hover {
 .sushi5:hover #sushi5text{
     display: block;
     color: white;
-    top: -250px;
-    left: 85px;
+    top: -280px;
+    left: 110px;
     opacity: 1;
     position: relative;
 }
@@ -301,11 +301,11 @@ li a:hover {
 /* Bilde 6 */
 #Produktbilde6 {
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: 1.2px solid black;
     left: 80px;
-    top: -100px;
+    top: -90px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -318,8 +318,8 @@ li a:hover {
 .sushi6:hover #sushi6text{
     display: block;
     color: white;
-    top: -250px;
-    left: 85px;
+    top: -280px;
+    left: 110px;
     opacity: 1;
     position: relative;
 }
@@ -336,11 +336,11 @@ li a:hover {
 /* Bilde 7 */
 #Produktbilde7 {
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: 1.2px solid black;
     left: 80px;
-    top: -100px;
+    top: -90px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -353,8 +353,8 @@ li a:hover {
 .sushi7:hover #sushi7text{
     display: block;
     color: white;
-    top: -250px;
-    left: 85px;
+    top: -280px;
+    left: 110px;
     opacity: 1;
     position: relative;
 }
@@ -371,11 +371,11 @@ li a:hover {
 /* Bilde 8 */
 #Produktbilde8 {
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: 1.2px solid black;
     left: 80px;
-    top: -120px;
+    top: -80px;
     box-sizing: content-box;
     object-fit: cover;
 }
@@ -389,7 +389,7 @@ li a:hover {
     display: block;
     color: white;
     top: -270px;
-    left: 95px;
+    left: 110px;
     opacity: 1;
     position: relative;
 }
@@ -406,7 +406,7 @@ li a:hover {
 #spans{
         position: relative; 
         left:56px; 
-        bottom: 85px;
+        bottom: 105px;
         color: gold;
     }
 
