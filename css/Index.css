@@ -150,7 +150,7 @@ li a:hover {
     position: relative;
 }
 
-#Produktbilde1:hover{
+.sushi1:hover #Produktbilde1{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 20px #000000;
@@ -185,7 +185,7 @@ li a:hover {
     position: relative;
 }
 
-#Produktbilde2:hover{
+.sushi2:hover #Produktbilde2{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 15px #000000;
@@ -220,7 +220,7 @@ li a:hover {
     position: relative;
 }
 
-#Produktbilde3:hover{
+.sushi3:hover #Produktbilde3{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 15px #000000;
@@ -254,8 +254,7 @@ li a:hover {
     opacity: 1;
     position: relative;
 }
-
-#Produktbilde4:hover{
+.sushi4:hover #Produktbilde4{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 15px #000000;
@@ -289,7 +288,7 @@ li a:hover {
     position: relative;
 }
 
-#Produktbilde5:hover{
+.sushi5:hover #Produktbilde5{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 15px #000000;
@@ -324,7 +323,7 @@ li a:hover {
     position: relative;
 }
 
-#Produktbilde6:hover{
+.sushi6:hover #Produktbilde6{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 15px #000000;
@@ -359,7 +358,7 @@ li a:hover {
     position: relative;
 }
 
-#Produktbilde7:hover{
+.sushi7:hover #Produktbilde7{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 15px #000000;
@@ -394,7 +393,7 @@ li a:hover {
     position: relative;
 }
 
-#Produktbilde8:hover{
+.sushi8:hover #Produktbilde8{
     -moz-box-shadow: 0 0 15px #000000;
     -webkit-box-shadow: 0 0 15px #000000;
     box-shadow: 0 0 15px #000000;
