@@ -87,7 +87,7 @@ li a:hover {
     position: relative;
     width: 230px;
     height: 170px;
-    background-color: gray;
+    background-image: linear-gradient(rgb(119, 112, 119), rgb(153, 130, 139));
     border: 1px solid black;
     left: 80px;
     top: -100px;
@@ -96,6 +96,7 @@ li a:hover {
 #text{
     margin: 10px;
     font-family: sans-serif;
+    color: whitesmoke;
 }
 
 /*  Bilder + hover */
