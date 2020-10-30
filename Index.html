@@ -32,21 +32,6 @@
             <li><a href="">Pending</a></li>
           </ul>
         </div>
-
-
-         <!-- Welcome Box -->
-        <div id="box">
-            <p id="text">
-                Velkommen til FancySushi!<br>
-                Vi har et bredt utvalg av gode og
-                autentiske japanske retter <br> 
-                som venter på deg!<br><br>
-                Gullstjernen viser hvilken retter
-                som er de mest populære!
-            
-            </p>
-        </div>
-     
                    
                    
                     <!--Produktbilder-->
@@ -174,6 +159,36 @@
 		    });
 	    </script>
 
+
+        <!-- Popup message box -->  
+        <div id="popup-container" style='display:none'>
+            <div id="popupbox">
+                <center>
+                     <h3>
+                        <br><br>
+                        Velkommen til FancySushi!<br><br>
+                        Vi har et bredt utvalg av gode og
+                        autentiske japanske retter <br> 
+                        som venter på deg!<br><br>
+                        Gullstjernen viser hvilken retter
+                        som er de mest populære!<br><br>
+                    </h3>    
+                    <input type="submit" name="submit" value="Close" onClick="PopUp('hide')" />
+                </center>
+            </div>
+        </div>
+
+        <script>
+            function PopUp(hideOrshow) {
+                if (hideOrshow == 'hide') document.getElementById('popup-container').style.display = "none";
+                else document.getElementById('popup-container').removeAttribute('style');
+            }
+            window.onload = function () {
+                setTimeout(function () {
+                    PopUp('show');
+                }, 1000);
+            }
+            </script>
 
     </div>
 
