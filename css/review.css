@@ -109,12 +109,28 @@ li a:hover {
     top: 0px;
 }
 
-#maki{
-    position: relative;
-    top: -733px;
+#maki1{
+    position: absolute;
+    top: 5px;
     width: 100px;
     height: 100px;
-    left: -350px;
+    left: 0px;
+}
+
+#maki2{
+    position: absolute;
+    top: 5px;
+    width: 100px;
+    height: 100px;
+    left: 300px;
+}
+
+#maki3{
+    position: absolute;
+    top: 5px;
+    width: 100px;
+    height: 100px;
+    left: 620px;
 }
 
 #logo{

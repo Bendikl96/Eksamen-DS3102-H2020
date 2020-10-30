@@ -70,19 +70,19 @@
 
 
         <!-- Anime.js Banner -->
-	    <img id="maki" src="Eksamen-DS3102-H2020/images/banner/chef1.png">
-      <img id="maki" src="Eksamen-DS3102-H2020/images/banner/maki.png">
-      <img id="maki" src="Eksamen-DS3102-H2020/images/banner/chef2.png">
-      
-      <script src="scripts/anime.min.js"></script>
-       <script>
-         anime({
-          targets: maki,
-          translateX: 300,
-          duration: 10000,
-          
-         });
-       </script>
+        <img id="maki1" src="Eksamen-DS3102-H2020/images/banner/chef1.png">
+        <img id="maki2" src="Eksamen-DS3102-H2020/images/banner/maki.png">
+        <img id="maki3" src="Eksamen-DS3102-H2020/images/banner/chef2.png">
+        
+	    <script src="scripts/anime.min.js"></script>
+	    <script>
+		    anime({
+			targets: [maki1,maki2,maki3],
+            translateX: 300,
+			duration: 10000,
+            
+		    });
+	    </script>
 
     </div>
 
