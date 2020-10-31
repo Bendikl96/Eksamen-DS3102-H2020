@@ -82,23 +82,6 @@ li a:hover {
   }
 
 
-/* Box og Tekst Css */
-
-#box{
-    position: relative;
-    width: 230px;
-    height: 170px;
-    background-color: gray;
-    border: 1px solid black;
-    left: 80px;
-    top: -100px;
-}
-
-#text{
-    margin: 10px;
-    font-family: sans-serif;
-}
-
 /*  Bilder + hover */
 
 #banner {
