@@ -411,6 +411,19 @@ li a:hover {
         color: gold;
     }
 
+#spans1{
+        position: relative; 
+        left: 55px; 
+        bottom: 105px;
+        color: gold;
+    }
+
+#spans2{
+        position: relative; 
+        left: 55px; 
+        bottom: 105px;
+        color: gold;
+    }
 
 
 /* Popup message box */
@@ -445,6 +458,456 @@ li a:hover {
 
 @media (max-width: 768px){
  
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+html, body{
+    background-image: linear-gradient(rgb(51, 32, 53), rgb(78, 58, 66));
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#main-page-container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);     
+     grid-template-rows: 100px 50px 150px;
+     grid-row-gap: 10%;
+     grid-column-gap: 0rem;
+     grid-auto-rows: 150px;
+     height: 100%;
+     min-height: 100%;
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+     background-image: linear-gradient(rgb(51, 32, 53), rgb(78, 58, 66));
+}
+
+.item1{
+    grid-column: 1 / span 3;
+}
+
+
+/* Navbar */
+
+#navbar{
+    position: relative;
+    width: 100%;
+    top: -62px;
+    grid-column: 1 / span 3;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#75355a;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    left: 30px;
+    margin-left: 30px;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
+  
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #75355a;
+    color: white;
+    text-align: center;
+  }
+
+
+/*  Bilder + hover */
+
+#banner {
+    height: 150px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#maki1{
+    position: absolute;
+    top: 10px;
+    width: 80px;
+    height: 80px;
+    left: 160px;
+}
+
+#maki2{
+    position: absolute;
+    top: 10px;
+    width: 80px;
+    height: 80px;
+    left: 280px;
+}
+
+#maki3{
+    position: absolute;
+    top: 10px;
+    width: 80px;
+    height: 80px;
+    left: 430px;
+}
+
+#logo{
+    height: 130px;
+    width: 150px;
+    position: relative;
+    left: 20px;
+    top: -160px;
+}
+
+
+/* Bilde 1 */
+#Produktbilde1 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1.2px solid black;
+    left: 80px;
+    top: -99px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#sushi1text{
+    display: none;
+}
+
+.sushi1:hover #sushi1text{
+    display: block;
+    color: white;
+    top: -290px;
+    left: 110px;
+    opacity: 1;
+    position: relative;
+}
+
+.sushi1:hover #Produktbilde1{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 20px #000000;
+    opacity: 25%;
+}
+
+
+
+/* Bilde 2 */
+#Produktbilde2 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1.2px solid black;
+    left: 133px;
+    top: -99px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#sushi2text{
+    position: absolute;
+    display: none;
+}
+
+.sushi2:hover #sushi2text{
+    display: block;
+    color: white;
+    top: -290px;
+    left: 153px;
+    opacity: 1;
+    position: relative;
+}
+
+.sushi2:hover #Produktbilde2{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+    opacity: 25%;
+}
+
+
+
+/* Bilde 3 */
+#Produktbilde3 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1.2px solid black;
+    left: -325px;
+    top: 150px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#sushi3text{
+    position: absolute;
+    display: none;
+}
+
+.sushi3:hover #sushi3text{
+    display: block;
+    color: white;
+    left: -300px;
+    top: -50px;
+    opacity: 1;
+    position: relative;
+}
+
+.sushi3:hover #Produktbilde3{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+    opacity: 25%;
+}
+
+
+
+/* Bilde 4 */
+#Produktbilde4 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1.2px solid black;
+    left: 333px;
+    top: -80px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#sushi4text{
+    position: absolute;
+    display: none;
+}
+
+.sushi4:hover #sushi4text{
+    display: block;
+    color: white;
+    top: -270px;
+    left: 350px;
+    opacity: 1;
+    position: relative;
+}
+.sushi4:hover #Produktbilde4{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+    opacity: 25%;
+}
+
+
+/* Bilde 5 */
+#Produktbilde5 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1.2px solid black;
+    left: -125px;
+    top: 170px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#sushi5text{
+    position: absolute;
+    display: none;
+}
+
+.sushi5:hover #sushi5text{
+    display: block;
+    color: white;
+    top: -20px;
+    left: -100px;
+    opacity: 1;
+    position: relative;
+}
+
+.sushi5:hover #Produktbilde5{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+    opacity: 25%;
+}
+
+
+
+/* Bilde 6 */
+#Produktbilde6 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1.2px solid black;
+    left: -70px;
+    top: 170px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#sushi6text{
+    position: absolute;
+    display: none;
+}
+
+.sushi6:hover #sushi6text{
+    display: block;
+    color: white;
+    top: -25px;
+    left: -50px;
+    opacity: 1;
+    position: relative;
+}
+
+.sushi6:hover #Produktbilde6{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+    opacity: 25%;
+}
+
+
+
+/* Bilde 7 */
+#Produktbilde7 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1.2px solid black;
+    left: 78px;
+    top: 190px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#sushi7text{
+    position: absolute;
+    display: none;
+}
+
+.sushi7:hover #sushi7text{
+    display: block;
+    color: white;
+    top: -0px;
+    left: 110px;
+    opacity: 1;
+    position: relative;
+}
+
+.sushi7:hover #Produktbilde7{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+    opacity: 25%;
+}
+
+
+
+/* Bilde 8 */
+#Produktbilde8 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1.2px solid black;
+    left: 130px;
+    top: 188px;
+    box-sizing: content-box;
+    object-fit: cover;
+}
+
+#sushi8text{
+    position: absolute;
+    display: none;
+}
+
+.sushi8:hover #sushi8text{
+    display: block;
+    color: white;
+    top: -5px;
+    left: 160px;
+    opacity: 1;
+    position: relative;
+}
+
+.sushi8:hover #Produktbilde8{
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+    opacity: 25%;
+}
+
+
+/* Fontawsome ikoner  */
+#spans{
+        position: relative; 
+        left:260px; 
+        bottom: 125px;
+        color: gold;
+    }
+
+#spans1{
+        position: relative; 
+        left:310px; 
+        bottom: 125px;
+        color: gold;
+    }
+
+#spans2{
+        position: relative; 
+        left:-145px; 
+        bottom: -125px;
+        color: gold;
+    }
+
+
+
+/* Popup message box */
+#popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(212, 211, 211, 0.6);
+    z-index: 1001;
+}
+
+#popupbox {
+    width: 555px;
+    height: 375px;
+    background-image: linear-gradient(rgb(197, 164, 199), rgb(223, 188, 202));
+    border: 5px solid #000;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    box-shadow: #64686e 0px 0px 3px 3px;
+    -moz-box-shadow: #64686e 0px 0px 3px 3px;
+    -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+    position: relative;
+    top: 150px; left: 375px;
+}
+
 }
 
 
