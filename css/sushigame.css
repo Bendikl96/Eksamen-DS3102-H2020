@@ -40,6 +40,7 @@ html, body{
     width: 100%;
     top: -62px;
     grid-column: 1 / span 4;
+    z-index: 1001;
 }
 
 ul {
@@ -135,6 +136,15 @@ li a:hover {
 
 
 /* Drag and drop game */
+
+#game{
+    position: relative;
+    font-family: sans-serif;
+    color: white;
+    top: -530px;
+    left: 500px;
+}
+
 
 #drag{
     position: relative;
