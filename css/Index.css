@@ -894,7 +894,7 @@ li a:hover {
 }
 
 #popupbox {
-    width: 555px;
+    width: 355px;
     height: 375px;
     background-image: linear-gradient(rgb(197, 164, 199), rgb(223, 188, 202));
     border: 5px solid #000;
@@ -905,7 +905,8 @@ li a:hover {
     -moz-box-shadow: #64686e 0px 0px 3px 3px;
     -webkit-box-shadow: #64686e 0px 0px 3px 3px;
     position: relative;
-    top: 150px; left: 375px;
+    top: 150px; 
+    left: 130px;
 }
 
 }
