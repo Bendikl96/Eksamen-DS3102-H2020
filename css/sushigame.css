@@ -136,32 +136,54 @@ li a:hover {
 
 /* Drag and drop game */
 
+#drag{
+    position: relative;
+    left: 100px;
+    top: -30px;
+    border-radius: 30%;
+}
+
 #drag1{
     position: relative;
     left: 100px;
     top: -30px;
+    border-radius: 30%;
+}
+
+#drag2{
+    position: relative;
+    left: 100px;
+    top: -30px;
+    border-radius: 30%;
+}
+
+#drag3{
+    position: relative;
+    left: 100px;
+    top: -30px;
+    border-radius: 30%;
 }
 
 
-#person3{
+#table1{
     position: relative;
     background-image: linear-gradient(rgb(160, 121, 204), rgb(224, 155, 183));
     justify-content: center;
 }
 
-#person4{
+#table2{
     position: relative;
     background-image: linear-gradient(rgb(160, 121, 204), rgb(224, 155, 183));
     justify-content: center;
 }
 
-#person5{
+#table3{
     position: relative;
     background-image: linear-gradient(rgb(160, 121, 204), rgb(224, 155, 183));
     justify-content: center;
 }
 
-#person6{
+#table4{
     position: relative;
     background-image: linear-gradient(rgb(160, 121, 204), rgb(224, 155, 183));
     justify-content: center;
