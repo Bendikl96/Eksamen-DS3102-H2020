@@ -550,27 +550,27 @@ li a:hover {
 }
 
 #maki1{
-    position: absolute;
-    top: 10px;
+    position: relative;
+    top: -750px;
     width: 80px;
     height: 80px;
-    left: 160px;
+    left: -230px;
 }
 
 #maki2{
-    position: absolute;
-    top: 10px;
+    position: relative;
+    top: -980px;
     width: 80px;
     height: 80px;
-    left: 280px;
+    left: 290px;
 }
 
 #maki3{
-    position: absolute;
-    top: 10px;
+    position: relative;
+    top: -980px;
     width: 80px;
     height: 80px;
-    left: 430px;
+    left: 200px;
 }
 
 #logo{
