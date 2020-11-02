@@ -146,21 +146,25 @@ li a:hover {
 #person3{
     position: relative;
     background-image: linear-gradient(rgb(160, 121, 204), rgb(224, 155, 183));
+    justify-content: center;
 }
 
 #person4{
     position: relative;
     background-image: linear-gradient(rgb(160, 121, 204), rgb(224, 155, 183));
+    justify-content: center;
 }
 
 #person5{
     position: relative;
     background-image: linear-gradient(rgb(160, 121, 204), rgb(224, 155, 183));
+    justify-content: center;
 }
 
 #person6{
     position: relative;
     background-image: linear-gradient(rgb(160, 121, 204), rgb(224, 155, 183));
+    justify-content: center;
 }
 
 
