@@ -1,5 +1,5 @@
 
-
+/*  Making the pictures dragable  */ 
 function allowDrop(event) {
     event.preventDefault();
   }
