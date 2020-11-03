@@ -138,11 +138,11 @@ li a:hover {
 /* Drag and drop game */
 
 #game{
-    position: relative;
+    position: absolute;
     font-family: sans-serif;
     color: white;
-    top: -530px;
-    left: 500px;
+    top: 200px;
+    left: 530px;
 }
 
 

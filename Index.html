@@ -24,16 +24,17 @@
             
 
          <!-- Navbar -->
-        <div id="navbar">
+        <nav id="navbar">
           <ul>
             <li><a href="Index.html">Hjem</a></li>
             <li><a href="review.html">Kundeomtaler</a></li>
             <li><a href="">Universiell Utforming</a></li>
             <li><a href="sushigame.html">Sushi Game</a></li>
           </ul>
-        </div>
+        </nav>
                    
-                   
+
+        
                     <!--Produktbilder-->
         
         <div class="sushi1">
@@ -136,6 +137,39 @@
         </div>
         
 
+
+        <!-- Popup message box -->  
+     <div id="popup-container" style='display:none'>
+        <div id="popupbox">
+            <center>
+                 <h3>
+                    <br><br>
+                    Velkommen til FancySushi!<br><br>
+                    Vi har et bredt utvalg av gode og
+                    autentiske japanske retter <br> 
+                    som venter på deg!<br><br>
+                    Gullstjernen viser hvilken retter
+                    som er de mest populære!<br><br>
+                </h3>    
+                <input type="submit" name="submit" value="Close" onClick="PopUp('hide')" />
+            </center>
+        </div>
+     </div>
+
+    <script>
+        function PopUp(hideOrshow) {
+            if (hideOrshow == 'hide') document.getElementById('popup-container').style.display = "none";
+            else document.getElementById('popup-container').removeAttribute('style');
+        }
+        window.onload = function () {
+            setTimeout(function () {
+                PopUp('show');
+            }, 1000);
+        }
+    </script>
+
+
+
         <!-- Footer -->
         <div class="footer">
             <p>Kontakt info: Fancysushi@gmail.com 
@@ -163,36 +197,6 @@
 	    </script>
 
 
-            
-        <!-- Popup message box -->  
-     <div id="popup-container" style='display:none'>
-            <div id="popupbox">
-                <center>
-                     <h3>
-                        <br><br>
-                        Velkommen til FancySushi!<br><br>
-                        Vi har et bredt utvalg av gode og
-                        autentiske japanske retter <br> 
-                        som venter på deg!<br><br>
-                        Gullstjernen viser hvilken retter
-                        som er de mest populære!<br><br>
-                    </h3>    
-                    <input type="submit" name="submit" value="Close" onClick="PopUp('hide')" />
-                </center>
-            </div>
-        </div>
-
-        <script>
-            function PopUp(hideOrshow) {
-                if (hideOrshow == 'hide') document.getElementById('popup-container').style.display = "none";
-                else document.getElementById('popup-container').removeAttribute('style');
-            }
-            window.onload = function () {
-                setTimeout(function () {
-                    PopUp('show');
-                }, 1000);
-            }
-            </script>
        
 
     </div>
