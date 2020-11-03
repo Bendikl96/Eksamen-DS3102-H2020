@@ -205,4 +205,222 @@ li a:hover {
 
 @media (max-width: 768px){
 
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+html, body{
+    background-image: linear-gradient(rgb(51, 32, 53), rgb(78, 58, 66));
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#main-page-container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);     
+     grid-template-rows: 100px 50px 150px;
+     grid-row-gap: 10%;
+     grid-column-gap: 0rem;
+     grid-auto-rows: 150px;
+     height: 100%;
+     min-height: 100%;
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+     
+}
+
+.item1{
+    grid-column: 1 / span 3;
+}
+
+
+.item4{
+    display: none;
+}
+
+#navbar{
+    position: relative;
+    width: 100%;
+    top: -62px;
+    grid-column: 1 / span 3;
+    z-index: 1001;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#75355a;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    left: 30px;
+    margin-left: 30px;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
+  
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #75355a;
+    color: white;
+    text-align: center;
+  }
+
+
+/*  Bilder + hover */
+
+#banner {
+    height: 150px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#maki1{
+    position: relative;
+    top: -280px;
+    width: 80px;
+    height: 80px;
+    left: 160px;
+}
+
+#maki2{
+    position: relative;
+    top: -280px;
+    width: 80px;
+    height: 80px;
+    left: 60px;
+}
+
+#maki3{
+    position: relative;
+    top: -280px;
+    width: 80px;
+    height: 80px;
+    left: -20px;
+}
+
+#logo{
+    height: 130px;
+    width: 150px;
+    position: relative;
+    left: 20px;
+    top: -160px;
+}
+
+
+/* Fontawsome ikoner  */
+#spans{
+    position: relative; 
+    left:56px; 
+    bottom: 85px;
+    color: gold;
+}
+
+
+/* Drag and drop game */
+
+#game{
+    position: relative;
+    font-family: sans-serif;
+    color: white;
+    top: -590px;
+    left: 180px;
+}
+
+
+#drag{
+    position: relative;
+    left: 100px;
+    top: -250px;
+    border-radius: 30%;
+}
+
+#drag1{
+    position: relative;
+    left: 120px;
+    top: -250px;
+    border-radius: 30%;
+}
+
+#drag2{
+    position: relative;
+    left: -300px;
+    top: -80px;
+    border-radius: 30%;
+}
+
+#drag3{
+    position: relative;
+    left: 317px;
+    top: -307px;
+    border-radius: 30%;
+}
+
+
+#table1{
+    position: relative;
+    background-image: linear-gradient(rgb(160, 121, 204), rgb(224, 155, 183));
+    justify-content: center;
+    top: -120px;
+    left: -140px;
+    width: 200px;
+    height: 130px;
+}
+
+#table2{
+    position: relative;
+    background-image: linear-gradient(rgb(160, 121, 204), rgb(224, 155, 183));
+    justify-content: center;
+    top: -120px;
+    left: -80px;
+    width: 200px;
+    height: 130px;
+}
+
+#table3{
+    position: relative;
+    background-image: linear-gradient(rgb(160, 121, 204), rgb(224, 155, 183));
+    justify-content: center;
+    top: -170px;
+    left: 60px;
+    width: 200px;
+    height: 180px;
+}
+
+#table4{
+    position: relative;
+    background-image: linear-gradient(rgb(160, 121, 204), rgb(224, 155, 183));
+    justify-content: center;
+    top: -170px;
+    left: 123px;
+    width: 200px;
+    height: 180px;
+}
+
+
 }
