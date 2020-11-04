@@ -1,4 +1,4 @@
-<!DOCTYPE html5>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Fancy sushi</title>
@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/review.css">
     
     <script src="https://kit.fontawesome.com/c418f3b306.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts/review.js"></script>
 </head>
 <body>
 
@@ -34,9 +35,9 @@
 
         <div class="container">
 
-          <h2 class="regform">Hva synes du?</h2>
-          <form>
-            <div id="name">
+          <h2 class="formTitle">Hva synes du?</h2>
+          <form onsubmit="reviewForm(event)">
+            <div id="formTxt">
 
               Gi din vurdering og skriv en omtale
                 
@@ -48,18 +49,21 @@
                   <a class="fas fa-star b5"></a>
                 </div>
 
-              <input class="review-field" type="text" name="review" placeholder="Hva synes du om oss?">
-                <h3 class="name">Navn</h2>
-                <input class="fullname" type="text" name="full_name" placeholder="Navn">
+              <div>
+                <textarea class="reviewField" name="reviewField" placeholder="Hva synes du om oss?"></textarea>
+              </div>
+                <h3 class="nameTitle">Navn</h3>
+                <div>
+                  <input class="fullName" type="text" name="fullName" placeholder="Navn">
+                </div>
+              </div>
+              <div>
+                <input type="submit" class="addBtn">
               </div>
             </form>
-            <button class="addBtn" type="submit">Send inn</button>
         </div>
 
-        <div class="review-container">
-
-        </div>
-        <script src="review.js"></script>
+        <div id="reviewOutput"></div>
 
         <!-- Footer -->
         <div class="footer">

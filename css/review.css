@@ -157,7 +157,7 @@ li a:hover {
     text-align: center;
 }
 
-.regform{
+.formTitle{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     margin: 10px;
@@ -197,23 +197,24 @@ li a:hover {
     color: gold;
 }
 
-.review-field{
+.reviewField{
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 7px;
     margin: 10px;
     padding: 50px;
 }
 
-#name{
+#formTxt{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     margin: 10px;
 }
 
-.name{
+.nameTitle{
     color: white;
 }
 
-.fullname{
+.fullName{
     border-radius: 7px;
 }
 
@@ -231,15 +232,21 @@ li a:hover {
     background-color:gray;
 }
 
+#reviewOutput{
+    position: absolute;
+    height: 450px;
+    width: 1000px;
+    top: 200px;
+    left: 400px;
+}
+
 /* Fontawsome ikoner  */
 #spans{
     position: relative; 
-    left:56px; 
+    left: 56px; 
     bottom: 85px;
     color: gold;
 }
-
-
 
 /* Media queries */
 
