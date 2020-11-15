@@ -238,6 +238,9 @@ li a:hover {
     width: 1000px;
     top: 200px;
     left: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
 }
 
 /* Fontawsome ikoner  */

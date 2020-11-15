@@ -25,3 +25,10 @@ function reviewForm(event){
     event.target.reset();
 }
 
+    window.addEventListener("storage", function(event){
+        if (event.key === "renderReviewOutput") {
+            renderReviewOutput;
+        }
+    });
+
+    
