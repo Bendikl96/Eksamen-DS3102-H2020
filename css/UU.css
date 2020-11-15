@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+
+    background-color: blueviolet;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-fluid {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.container-fluid h2 {
+    color: rgb(19, 10, 14);
+    position: relative;
+    width: 50rem;
+}
+
+.container-fluid h2 :after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    width: 67px;
+    height:  2px;
+    background-color: whitesmoke;
+
+}
+
+.accordion {
+    width: 100%;
+    padding: 0 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.accordion .icon {
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+    background: gold;    
+    border-radius: 50%;
+    float: left;
+    transition: all .5s ease-in;
+}
+
+.accordion h5 {
+    font-size: 22px;
+    margin: 0;
+    padding: 3px 0 0 0;
+    font-weight: normal;
+    color: yellowgreen;
+
+}
+
+.panel {
+    padding: 0 15px;
+    border-left: 1px;
+    margin-left: 25px;
+    font-size: 14px;
+    text-align: justify;
+    overflow:hidden;
+    max-height: 0;
+    transition: all .3s ease-in;
+
+
+
+}
