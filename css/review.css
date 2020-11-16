@@ -317,26 +317,26 @@ li a:hover {
 
 #maki1{
     position: relative;
-    top: -750px;
+    top: -280px;
     width: 80px;
     height: 80px;
-    left: -230px;
+    left: 150px;
     }
 
 #maki2{
     position: relative;
-    top: -980px;
+    top: -280px;
     width: 80px;
     height: 80px;
-    left: 290px;
+    left: 0px;
     }
 
 #maki3{
     position: relative;
-    top: -980px;
+    top: -280px;
     width: 80px;
     height: 80px;
-    left: 200px;
+    left: -130px;
     }
 
 #logo{
