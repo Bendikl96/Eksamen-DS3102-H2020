@@ -219,8 +219,13 @@ li a:hover {
     background-color: #7b375f;
     border: 2px solid black;
     border-radius: 7px;
-    height: 200px;
+    height: 150px;
     padding: 10px;
+    font-size: 15px;
+}
+
+#reviewOutput div h3{
+    font-style: italic;
 }
 
 /* Fontawsome ikoner  */
@@ -234,5 +239,124 @@ li a:hover {
 /* Media queries */
 
 @media (max-width: 768px){
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
+html, body{
+    background-image: linear-gradient(rgb(51, 32, 53), rgb(78, 58, 66));
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    }
+
+#main-page-container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);     
+     grid-template-rows: 100px 50px 150px;
+     grid-row-gap: 10%;
+     grid-column-gap: 0rem;
+     grid-auto-rows: 150px;
+     height: 100%;
+     min-height: 100%;
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+    }
+
+.item1{
+    grid-column: 1 / span 3;
+    }
+
+/* Navbar */
+
+#navbar{
+    position: relative;
+    width: 100%;
+    top: -62px;
+    grid-column: 1 / span 3;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#75355a;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    left: 30px;
+    margin-left: 30px;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
+  
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #75355a;
+    color: white;
+    text-align: center;
+  }
+
+
+/*  Bilder + hover */
+
+#banner {
+    height: 150px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    }
+
+#maki1{
+    position: relative;
+    top: -750px;
+    width: 80px;
+    height: 80px;
+    left: -230px;
+    }
+
+#maki2{
+    position: relative;
+    top: -980px;
+    width: 80px;
+    height: 80px;
+    left: 290px;
+    }
+
+#maki3{
+    position: relative;
+    top: -980px;
+    width: 80px;
+    height: 80px;
+    left: 200px;
+    }
+
+#logo{
+    height: 130px;
+    width: 150px;
+    position: relative;
+    left: 20px;
+    top: -160px;
+    }
 }

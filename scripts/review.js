@@ -5,7 +5,7 @@ function renderReviewOutput(){
     for (const review of reviewOutput) {
         const reviewEl = document.createElement("div");
         const { reviewField, fullName} = review;
-        reviewEl.innerHTML = reviewField  + "<h3>"+ fullName + "</h3>";
+        reviewEl.innerHTML = reviewField  + "<h3>" + fullName + "</h3>";
         reviewOutputEl.appendChild(reviewEl);
         }
     }
