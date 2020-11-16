@@ -5,10 +5,11 @@ function renderReviewOutput(){
     for (const review of reviewOutput) {
         const reviewEl = document.createElement("div");
         const { reviewField, fullName} = review;
-        reviewEl.innerHTML = "<div>" + reviewField + "</div>" + "<h2>"+ fullName + "</h2>";
+        reviewEl.innerHTML = reviewField  + "<h3>"+ fullName + "</h3>";
         reviewOutputEl.appendChild(reviewEl);
         }
     }
+
 function reviewForm(event){
     event.preventDefault();
 
@@ -30,5 +31,3 @@ function reviewForm(event){
             renderReviewOutput;
         }
     });
-
-    

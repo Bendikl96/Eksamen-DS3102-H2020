@@ -34,21 +34,12 @@
         </div>
 
         <div class="container">
-
           <h2 class="formTitle">Hva synes du?</h2>
           <form onsubmit="reviewForm(event)">
             <div id="formTxt">
 
               Gi din vurdering og skriv en omtale
-                
-              <div class="rating">
-                  <a class="fas fa-star b1"></a>
-                  <a class="fas fa-star b2"></a>
-                  <a class="fas fa-star b3"></a>
-                  <a class="fas fa-star b4"></a>
-                  <a class="fas fa-star b5"></a>
-                </div>
-
+              
               <div>
                 <textarea class="reviewField" name="reviewField" placeholder="Hva synes du om oss?"></textarea>
               </div>
@@ -57,10 +48,9 @@
                   <input class="fullName" type="text" name="fullName" placeholder="Navn">
                 </div>
               </div>
-              <div>
-                <input type="submit" class="addBtn">
-              </div>
+                <button type="submit" class="addBtn">Send inn</button>
             </form>
+            
         </div>
 
         <div id="reviewOutput"></div>

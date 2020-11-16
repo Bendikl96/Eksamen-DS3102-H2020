@@ -163,51 +163,17 @@ li a:hover {
     margin: 10px;
 }
 
-.rating{
-    margin: 10px;
-    direction: rtl;
-}
-
-.rating a{
-    font-size: 20px;
-    transition: 0.5s all;
-}
-
-.rating a:hover{
-    color: gold;
-}
-
-.b1:hover ~ a{
-    color: gold;
-}
-
-.b2:hover ~ a{
-    color: gold;
-}
-
-.b3:hover ~ a{
-    color: gold;
-}
-
-.b4:hover ~ a{
-    color: gold;
-}
-
-.b5:hover ~ a{
-    color: gold;
-}
-
 .reviewField{
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 7px;
-    margin: 10px;
+    margin: 5px;
     padding: 50px;
 }
 
 #formTxt{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin: 10px;
+    margin: 5px;
 }
 
 .nameTitle{
@@ -219,17 +185,22 @@ li a:hover {
 }
 
 .addBtn{
+    height: 30px;
+    width: 50%;
+    border: 1px solid #444;
     border-radius: 7px;
-    top: 10px;
-    bottom: 0px;
-    background-color: white;
-    cursor: pointer;
     outline: none;
-    transition: 0.25px;
+    background: #75355a;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .addBtn:hover{
-    background-color:gray;
+    background-color: black;
 }
 
 #reviewOutput{
@@ -240,7 +211,16 @@ li a:hover {
     left: 400px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
     color: white;
+}
+
+#reviewOutput div{
+    background-color: #7b375f;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 200px;
+    padding: 10px;
 }
 
 /* Fontawsome ikoner  */
