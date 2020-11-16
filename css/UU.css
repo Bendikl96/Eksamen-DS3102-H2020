@@ -1,16 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-body {
-
-    background-color: blueviolet;
+html, body{
+    background-image: linear-gradient(rgb(51, 32, 53), rgb(78, 58, 66));
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    height: 100%;
+    overflow: auto;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+#main-page-container{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);     
+     grid-template-rows: 100px 50px 150px;
+     grid-row-gap: 10%;
+     grid-column-gap: 0rem;
+     grid-auto-rows: 150px;
+     height: 100%;
+     min-height: 100%;
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+     
+}
+
+.item1{
+    grid-column: 1 / span 4;
+}
+
+
+.item4{
+    display: none;
+}
+
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #75355a;
+    color: white;
+    text-align: center;
+  }
+
+
+/*  Bilder + hover */
+
+#banner {
+    height: 150px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#maki1{
+    position: relative;
+    top: -290px;
+    width: 100px;
+    height: 100px;
+    left: -510px;
+}
+
+#maki2{
+    position: relative;
+    top: -290px;
+    width: 100px;
+    height: 100px;
+    left: -350px;
+}
+
+#maki3{
+    position: relative;
+    top: -290px;
+    width: 100px;
+    height: 100px;
+    left: -200px;
+}
+
+#logo{
+    height: 130px;
+    width: 150px;
+    position: relative;
+    left: 20px;
+    top: -160px;
+}
+
+
+
 
 .container-fluid {
+    position: relative;
     width: 40%;
     margin: 0 auto;
     margin-top: 1px;
+    top: -100px;
+    left: -100px;
     
 }
 
@@ -73,6 +162,145 @@ body {
     transition: all .3s ease-in;
     color:white;
 
+}
 
+/* photo of chef */
+
+#chef{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    left: 700px;
+    top: -270px;
+    border: 1px solid black;
+}
+
+
+
+/* Media queries */
+
+@media (max-width: 768px){
+ 
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+html, body{
+    background-image: linear-gradient(rgb(51, 32, 53), rgb(78, 58, 66));
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#main-page-container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);     
+     grid-template-rows: 100px 50px 150px;
+     grid-row-gap: 10%;
+     grid-column-gap: 0rem;
+     grid-auto-rows: 150px;
+     height: 100%;
+     min-height: 100%;
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+}
+
+.item1{
+    grid-column: 1 / span 3;
+}
+
+
+/* Navbar */
+
+#navbar{
+    position: relative;
+    width: 606px;
+    top: -62px;
+    grid-column: 1 / span 3;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#75355a;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    left: 30px;
+    margin-left: 30px;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
+  
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #75355a;
+    color: white;
+    text-align: center;
+  }
+
+
+/*  Bilder + hover */
+
+#banner {
+    height: 150px;
+    width: 606px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#maki1{
+    position: relative;
+    top: -280px;
+    width: 80px;
+    height: 80px;
+    left: -640px;
+}
+
+#maki2{
+    position: relative;
+    top: -280px;
+    width: 80px;
+    height: 80px;
+    left: -920px;
+}
+
+#maki3{
+    position: relative;
+    top: -510px;
+    width: 80px;
+    height: 80px;
+    left: 420px;
+}
+
+#logo{
+    height: 130px;
+    width: 150px;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
 
 }
