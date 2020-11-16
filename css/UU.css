@@ -6,14 +6,16 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+
 .container-fluid {
     width: 40%;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 1px;
+    
 }
 
 .container-fluid h2 {
-    color: rgb(19, 10, 14);
+    color: rgb(250, 249, 249);
     position: relative;
     width: 50rem;
 }
@@ -25,26 +27,27 @@ body {
     right: 12px;
     width: 67px;
     height:  2px;
-    background-color: whitesmoke;
+    
 
 }
 
 .accordion {
     width: 100%;
     padding: 0 5px;
-    border: 2px solid black;
+    border: 2px solid rgb(148, 39, 211);
     cursor: pointer;
     border-radius: 50px;
     display: flex;
     margin: 10px;
     align-items: center;
+    
 }
 
 .accordion .icon {
     margin: 0 10px 0 0;
     width: 30px;
     height: 30px;
-    background: gold;    
+    background: purple;    
     border-radius: 50%;
     float: left;
     transition: all .5s ease-in;
@@ -55,7 +58,7 @@ body {
     margin: 0;
     padding: 3px 0 0 0;
     font-weight: normal;
-    color: yellowgreen;
+    color: white;
 
 }
 
@@ -68,6 +71,7 @@ body {
     overflow:hidden;
     max-height: 0;
     transition: all .3s ease-in;
+    color:white;
 
 
 
